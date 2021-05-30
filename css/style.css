@@ -275,9 +275,14 @@ table {
     background-size: cover;
 }
 #Cocteles{
-    background: url('../img/res03.png') no-repeat;
-    background-size: cover;
+    background-color: #1A1626;
+      display: relative;
 }
+
+#Cocteles img{
+    width: 100%;
+}
+
 
 #Desayuno{
       background-color: #292325;
@@ -286,8 +291,6 @@ table {
 }
 #Desayuno img{
     width: 100%;
-
-
 }
 
 
