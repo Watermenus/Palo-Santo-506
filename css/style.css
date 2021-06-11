@@ -270,13 +270,53 @@ table {
     border: 5px solid rgb(255, 176, 59);
     border-radius: 2px;
 }
+#about figure{
+    border: 5px solid rgb(255, 176, 59);
+    border-radius: 2px;
+    background-color: black;
+    display: relative;
+    width: 100%;
+    height: 100%;
+}
 #event{
     background: url('../img/res02.png') no-repeat;
     background-size: cover;
 }
+
 #Cocteles{
-    background: url('../img/res03.png') no-repeat;
-    background-size: cover;
+    background-color: #1A1626;
+      display: relative;
+}
+
+
+.cocteles .menu-title {
+    float: left;
+    font-family: Montserrat,arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFB03B;
+}
+.cocteles .menu-line {
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotted rgba(0,0,0,.3);
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+.vocteles .menu-price {
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#Cocteles img{
+    width: 100%;
+}
+#Cocteles h4{
+    color:  white;
+    font-family: 'Satisfy', sans-serif;
+    font-size: 30px;
 }
 
 #Desayuno{
@@ -286,8 +326,6 @@ table {
 }
 #Desayuno img{
     width: 100%;
-
-
 }
 
 
